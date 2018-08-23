@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    a{
+      text-decoration: none;
+    }
+    ul {
+      list-style: none;
+    }
+  .userInfo{
+    background-color: #eee;
+  }
+   .body_user{
+     background-color: #fff;
+     width: 1000px;
+     height: 450px;
+     margin:0 auto;
+     padding-top: 50px;
+   }
+    .body_left{
+      width: 200px;
+      float: left;
+    }
+    .img_head{
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+      overflow: hidden;
+      border-radius: 70px;
+      margin-left: 50px;
+    }
+    .img_head img{
+      width: 100%;
+    }
+    .user_name{
+      text-align: center;
+      padding-top: 10px;
+      font-size: 20px;
+      font-weight: 600;
+
+    }
+    .body_right{
+      width: 800px;
+      display: inline-block;
+      float: right;
+    }
+    .value_info{
+      width: 500px;
+      height: 50px;
+      line-height: 50px;
+      padding-left: 10px;
+      border: 1px solid #d0d0d0;
+      border-radius: 5px;
+      font-size: 15px;
+      margin: 15px 0;
+    }
+    .star{
+      color: red;
+      margin: 0 2px;
+    }
+    .name_info{
+      margin-left: 50px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="userInfo">
+    <div class="body_user">
+      <div class="body_left">
+        <a class="img_head" href="#"><img src="../assets/img/img_head.jpg" alt=""></a>
+        <p  class="user_name">
+          <a href="#">云书韵</a>
+        </p>
+
+      </div>
+      <div class="body_right">
+        <p>
+          <label>
+            <span class="name_info">昵称</span><span class="star">*</span> <input type="text" value="云书韵" placeholder="网名或者真实姓名" class="value_info">
+          </label>
+        </p>
+        <p>
+          <label>
+            <span class="name_info">性别</span><span class="star">*</span>
+            <select name="sex" class="value_info">
+              <option>性别</option>
+              <option>男</option>
+              <option>女</option>
+            </select>
+          </label>
+        </p>
+        <p>
+          <label>
+            <span class="name_info">工作经验</span><span class="star">*</span>
+            <textarea placeholder=""></textarea>
+          </label>
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

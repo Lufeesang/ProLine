@@ -1,0 +1,96 @@
+.banner_proList{
+  height: 120px;
+  line-height: 120px;
+  width: 100%;
+  background-color: #eee;
+  text-align: center;
+}
+.div_pro{
+  width: 100%;
+  background-color: #eee;
+}
+.select_pro{
+  height: 70px;
+  border-bottom: 2px solid #eee;
+}
+.content{
+  width: 1200px;
+  margin:0 auto;
+  background-color: #fff;
+}
+.input_style_index{
+  width: 200px;
+  height: 42px;
+  border:1px solid #d0d0d0;
+  padding-left: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  margin:20px 0;
+}
+.info_name_index{
+  font-weight:700;
+  font-size: 18px;
+  margin-left: 10px;
+}
+.lists_pro{
+  height: 1500px;
+
+}
+
+.item_pro{
+  width: 378px;
+  height: 340px;
+  border:1px solid #999;
+  border-radius: 15px;
+  text-align: center;
+  padding: 35px 0;
+  float: left;
+  margin: 10px 10px;
+
+}
+.state_pro{
+  display: inline-block;
+  width: 70px;
+  height: 25px;
+  background-color: #3DCA99;
+  color: #fff;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+.price_pro{
+  margin-top: 15px;
+  color: #ff734b;
+  margin-bottom: 30px;
+}
+.tec_pro{
+  height: 20px;
+  background-color: #ebebeb;
+  border-radius: 10px;
+  color: #888;
+  width: 50px;
+  display: inline-block;
+}
+.ul_status{
+  padding-top: 80px;
+  padding-left: 39px;
+  height: 70px;
+}
+.status_pro{
+  width: 100px;
+  float: left;
+  border-right: 1px solid #ccc;
+}
+.status_pro:nth-child(3){
+  border: 0;
+}
+.status_name{
+  color: #999;
+}
+.status_value{
+  font-size: 18px;
+  color: #666;
+}
+.date_pro{
+  color: #999;
+  font-size: 15px;
+}

@@ -1,0 +1,57 @@
+.banner_proPost{
+  width: 100%;
+  height: 50px;
+  background: url('../img/proPostBanner.jpg');
+}
+.form_pro{
+  width: 760px;
+  height: 950px;
+  background-color: #f7f7f7;
+  margin: 0 auto;
+  padding-left: 165px;
+
+}
+.input_style{
+  width: 530px;
+  height: 50px;
+  border:1px solid #d0d0d0;
+  padding-left: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  margin:20px 0;
+}
+.info_name{
+  font-weight:700;
+  font-size: 15px;
+
+}
+.star{
+  color:red;
+}
+.textarea_style{
+  width: 530px;
+  height: 155px;
+  border:1px solid #d0d0d0;
+  padding-left: 10px;
+  padding-top: 15px;
+  border-radius: 5px;
+  font-size: 15px;
+  margin: 20px 0;
+  vertical-align:top
+}
+.submit_pro{
+  width: 200px;
+  height: 50px;
+  display: block;
+  margin:100px 205px;
+  background-color: #3dca99;
+  border-radius: 25px;
+  border: 0;
+  font-size: 18px;
+  cursor: pointer;
+  color: #eee;
+  font-weight: 600;
+}
+.clear_fix{
+  clear: both;
+}

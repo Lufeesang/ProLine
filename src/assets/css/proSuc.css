@@ -1,0 +1,28 @@
+.pro_success{
+  background: #eee;
+  padding: 60px 0;
+}
+.info_div{
+  width: 1000px;
+  height: 415px;
+  margin:0 auto;
+  background: #fff;
+  padding-top: 85px;
+  text-align: center;
+}
+.info1_suc{
+  font-size: 24px;
+  margin-top: 15px;
+}
+.info2_suc{
+  color: #999;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 35px;
+}
+.back_style{
+  color: #86cc48;
+  font-size: 18px;
+  font-weight: 600;
+
+}
